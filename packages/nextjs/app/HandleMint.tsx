@@ -9,7 +9,7 @@ import { notification } from "~~/utils/scaffold-eth";
 import { addToIPFS } from "~~/utils/simpleNFT/ipfs-fetch";
 import nftsMetadata from "~~/utils/simpleNFT/nftsMetadata";
 
-const MyNFTs: NextPage = () => {
+const handleMint: NextPage = () => {
   const { address: connectedAddress, isConnected, isConnecting } = useAccount();
 
   const { writeAsync: mintItem } = useScaffoldContractWrite({
@@ -50,13 +50,6 @@ const MyNFTs: NextPage = () => {
 
   return (
     <>
-      <div className="flex items-center flex-col pt-10">
-        <div className="px-5">
-          <h1 className="text-center mb-8">
-            <span className="block text-4xl font-bold">My Language NFTs</span>
-          </h1>
-        </div>
-      </div>
       <div className="flex justify-center">
         {!isConnected || isConnecting ? (
           <RainbowKitCustomConnectButton />
@@ -71,4 +64,4 @@ const MyNFTs: NextPage = () => {
   );
 };
 
-export default MyNFTs;
+export default handleMint;

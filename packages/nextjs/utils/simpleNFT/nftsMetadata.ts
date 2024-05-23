@@ -1,121 +1,134 @@
 const nftsMetadata = [
   {
-    description: "It's actually a bison?",
-    external_url: "https://austingriffith.com/portfolio/paintings/", // <-- this can link to a page for the specific file too
-    image: "https://austingriffith.com/images/paintings/buffalo.jpg",
-    name: "Buffalo",
+    description: "Very smart!",
+    image: "https://pukisurf.com/images/LoreTest/grad1.png",
+    name: "Jonny",
     attributes: [
       {
-        trait_type: "BackgroundColor",
-        value: "green",
+        trait_type: "uniqueness",
+        value: "sweet",
       },
       {
-        trait_type: "Eyes",
-        value: "googly",
+        trait_type: "smart",
+        value: "100",
       },
       {
-        trait_type: "Stamina",
-        value: 42,
+        trait_type: "cute",
+        value: 100,
       },
     ],
   },
   {
-    description: "What is it so worried about?",
-    external_url: "https://austingriffith.com/portfolio/paintings/", // <-- this can link to a page for the specific file too
-    image: "https://austingriffith.com/images/paintings/zebra.jpg",
-    name: "Zebra",
+    description: "So diligent!",
+    image: "https://pukisurf.com/images/LoreTest/grad2.png",
+    name: "Miky",
     attributes: [
       {
-        trait_type: "BackgroundColor",
-        value: "blue",
+        trait_type: "uniqueness",
+        value: "digilent",
       },
       {
-        trait_type: "Eyes",
-        value: "googly",
+        trait_type: "smart",
+        value: "100",
       },
       {
-        trait_type: "Stamina",
-        value: 38,
+        trait_type: "cute",
+        value: 100,
       },
     ],
   },
   {
-    description: "What a horn!",
-    external_url: "https://austingriffith.com/portfolio/paintings/", // <-- this can link to a page for the specific file too
-    image: "https://austingriffith.com/images/paintings/rhino.jpg",
-    name: "Rhino",
+    description: "Best in Class!",
+    image: "https://pukisurf.com/images/LoreTest/grad3.png",
+    name: "Franky",
     attributes: [
       {
-        trait_type: "BackgroundColor",
-        value: "pink",
+        trait_type: "uniquess",
+        value: "thoughtful",
       },
       {
-        trait_type: "Eyes",
-        value: "googly",
+        trait_type: "smart",
+        value: "100",
       },
       {
-        trait_type: "Stamina",
-        value: 22,
+        trait_type: "cute",
+        value: 100,
       },
     ],
   },
   {
-    description: "Is that an underbyte?",
-    external_url: "https://austingriffith.com/portfolio/paintings/", // <-- this can link to a page for the specific file too
-    image: "https://austingriffith.com/images/paintings/fish.jpg",
-    name: "Fish",
+    description: "Top student in class!",
+    image: "https://pukisurf.com/images/LoreTest/grad4.png",
+    name: "Tutty",
     attributes: [
       {
-        trait_type: "BackgroundColor",
-        value: "blue",
+        trait_type: "uniqueness",
+        value: "intelligent",
       },
       {
-        trait_type: "Eyes",
-        value: "googly",
+        trait_type: "smart",
+        value: "100",
       },
       {
-        trait_type: "Stamina",
-        value: 15,
+        trait_type: "cute",
+        value: 100,
       },
     ],
   },
   {
-    description: "So delicate.",
-    external_url: "https://austingriffith.com/portfolio/paintings/", // <-- this can link to a page for the specific file too
-    image: "https://austingriffith.com/images/paintings/flamingo.jpg",
-    name: "Flamingo",
+    description: "So delicate, yet smart.",
+    image: "https://pukisurf.com/images/LoreTest/grad5.png",
+    name: "Benny",
     attributes: [
       {
-        trait_type: "BackgroundColor",
-        value: "black",
+        trait_type: "uniqueness",
+        value: "kind",
       },
       {
-        trait_type: "Eyes",
-        value: "googly",
+        trait_type: "smart",
+        value: "100",
       },
       {
-        trait_type: "Stamina",
-        value: 6,
+        trait_type: "cute",
+        value: 100,
       },
     ],
   },
   {
-    description: "Raaaar!",
-    external_url: "https://austingriffith.com/portfolio/paintings/", // <-- this can link to a page for the specific file too
-    image: "https://austingriffith.com/images/paintings/godzilla.jpg",
-    name: "Godzilla",
+    description: "Brilliant Student!",
+    image: "https://pukisurf.com/images/LoreTest/grad6.png",
+    name: "Billy",
     attributes: [
       {
-        trait_type: "BackgroundColor",
-        value: "orange",
+        trait_type: "uniqueness",
+        value: "lovely",
       },
       {
-        trait_type: "Eyes",
-        value: "googly",
+        trait_type: "smart",
+        value: "100",
       },
       {
-        trait_type: "Stamina",
-        value: 99,
+        trait_type: "cute",
+        value: 100,
+      },
+    ],
+  },
+  {
+    description: "Superstart!",
+    image: "https://pukisurf.com/images/LoreTest/grad7.png",
+    name: "Breddy",
+    attributes: [
+      {
+        trait_type: "uniqueness",
+        value: "superstar",
+      },
+      {
+        trait_type: "smart",
+        value: "100",
+      },
+      {
+        trait_type: "cute",
+        value: 100,
       },
     ],
   },
