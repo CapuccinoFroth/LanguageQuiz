@@ -25,7 +25,7 @@ const Home: NextPage = () => {
               Take a <a href="/quiz" target="_blank" rel="noreferrer" className="underline">
                 Quiz
               </a>{" "} and if you get more than 50% you will receive an NFT as proof of knowledge. 🚀
-              Encouragment to learn! 🤓🌟
+              Encouragment to learn!! 🤓🌟
             </p>
           </div>
         </div>
