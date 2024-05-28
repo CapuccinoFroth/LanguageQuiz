@@ -14,6 +14,10 @@ export interface Collectible extends Partial<NFTMetaData> {
   owner: string;
 }
 
+function goToQuiz() {
+  window.location.href = "/quiz";
+}
+
 export const MyHoldings = () => {
   const { address: connectedAddress } = useAccount();
   const [myAllCollectibles, setMyAllCollectibles] = useState<Collectible[]>([]);
@@ -82,9 +86,18 @@ export const MyHoldings = () => {
   return (
     <>
       {myAllCollectibles.length === 0 ? (
-        <div className="flex justify-center items-center mt-10">
-          <div className="text-2xl text-primary-content">No NFTs found</div>
-        </div>
+       <div>
+       <div className="flex justify-center items-center mt-10">
+          <div className="text-2xl text-primary-content">No NFTs found, please take a quiz to get an NFT!
+          <button className="btn btn-secondary flex justify-center items-center "  onClick={goToQuiz}>
+           Take a quiz
+          </button>
+          </div>                  
+          
+        </div>   
+       
+          
+      </div>
       ) : (
         <div className="flex flex-wrap gap-4 my-8 px-5 justify-center">
           {myAllCollectibles.map(item => (

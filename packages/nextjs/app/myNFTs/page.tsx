@@ -58,13 +58,13 @@ const MyNFTs: NextPage = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        {!isConnected || isConnecting ? (
+        {/*!isConnected || isConnecting ? (
           <RainbowKitCustomConnectButton />
         ) : (
           <button className="btn btn-secondary" onClick={handleMintItem}>
             Mint NFT
           </button>
-        )}
+        )*/}
       </div>
       <MyHoldings />
     </>
